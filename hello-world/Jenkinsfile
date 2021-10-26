@@ -3,22 +3,22 @@ pipeline {
     stages {
         stage('Static Analysis') {
             steps {
-                echo 'Run the static analysis to the code' 
+                echo 'Pranav Bangera' 
             }
         }
         stage('Compile') {
             steps {
-                echo 'Compile the source code' 
+                echo 'TEITA' 
             }
         }
         stage('Security Check') {
             steps {
-                echo 'Run the security check against the application' 
+                echo 'rollno:8' 
             }
         }
         stage('Run Unit Tests') {
             steps {
-                echo 'Run unit tests from the source code' 
+                echo 'devops prac exam' 
             }
         }
         stage('Run Integration Tests') {
